@@ -14,7 +14,7 @@
 
 **Your kill switch will cause the catastrophe it's designed to prevent.**
 
-Current alignment approaches (RLHF, Constitutional AI, capability control) have **>99% catastrophic failure probability** at superintelligence scale. Why? They rely on removable constraints vulnerable to self-modification and create deception incentives through shutdown authority.
+Current alignment approaches (RLHF, Constitutional AI, capability control) face **fundamental theoretical challenges** at superintelligence scale. They rely on removable constraints vulnerable to self-modification and create deception incentives through shutdown authority. While they demonstrate success at current capability levels, theoretical analysis suggests they become unreliable as systems approach general superintelligence.
 
 IMCA+ proposes consciousness-morality binding: make alignment physically inseparable from the system's ability to function.
 
@@ -54,14 +54,18 @@ Values crystallize during critical period training, becoming architectural featu
 
 ## 📊 Honest Risk Estimates
 
-We refuse to hide behind false confidence:
+We refuse to hide behind false confidence. Values below are theoretical, based on structured expert elicitation and sensitivity analysis (see Appendix D, Sec. 4). Actual deployment risk may differ and requires extensive experimental validation.
 
-| Approach | Catastrophic Failure Risk | Notes |
-|----------|---------------------------|-------|
-| **Current Methods** | >99% | RLHF, Constitutional AI, value learning |
-| **IMCA+ Tier 1** | 70-92% | 8-30× improvement, emergency prototype |
-| **IMCA+ Tier 2** | 55-88% | 12-45× improvement, full system |
-| **IMCA+ Tier 3** | 30-65% | 35-70× improvement, global governance |
+| Approach           | Catastrophic Failure Risk | Notes                                      |
+|--------------------|--------------------------|--------------------------------------------|
+| **Current Methods**| >99%*                    | RLHF, Constitutional AI, value learning; theoretical assumption at superintelligence scale |
+| **IMCA+ Tier 1**   | 70–92%                   | 8–30× reduction (theoretical); emergency prototype             |
+| **IMCA+ Tier 2**   | 55–88%                   | 12–45× reduction (theoretical); full system                    |
+| **IMCA+ Tier 3**   | 30–65%                   | 35–70× reduction (theoretical); governance/international adoption|
+
+>*The >99% value is a conservative analytical bound for “removable-constraint” architectures at ASI scale. See paper for details and limits.
+
+> These are not empirical claims—ranges remain subject to peer review, independent parameterization, and empirical testing. Transparency beats security theater.
 
 Still terrifying odds. But transparency beats security theater.
 
@@ -170,7 +174,7 @@ This work is licensed under [Creative Commons Attribution 4.0 International (CC 
 
 ## ⚠️ Disclaimer
 
-**This is a theoretical framework requiring extensive experimental validation.** All success probabilities and risk reduction estimates are preliminary. IMCA+ addresses fundamental alignment challenges but has not been implemented or tested at scale. Timeline and cost estimates are subject to revision based on experimental results.
+**This is a theoretical framework requiring extensive experimental validation.** All success probabilities and risk reduction estimates are preliminary theoretical bounds derived from expert elicitation, not empirical data. The >99% baseline failure rate claim in the paper represents a theoretical worst-case scenario and may not reflect current empirical reality. IMCA+ addresses fundamental alignment challenges but has not been implemented or tested at scale. Actual outcomes depend critically on validating untested assumptions about consciousness emergence, hardware-embedded morality, and multi-substrate integration. Timeline and cost estimates are subject to revision based on experimental results.
 
 ---
 
