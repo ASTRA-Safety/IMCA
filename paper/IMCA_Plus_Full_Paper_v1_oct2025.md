@@ -79,28 +79,37 @@ Current approaches to superintelligence alignment fail due to their reliance on 
 - **Conclusion: The Only Honest Path** - Philosophical coherence as practical necessity
 
 ### 1. Introduction
-- 1.1 The Superintelligence Alignment Problem - Core challenge and impossibility theorems
-- 1.2 Critique of Existing Approaches - RLHF, Constitutional AI, and value learning failures
-  - 1.2.1 Reinforcement Learning from Human Feedback (RLHF) - Psychological pathologies and misalignment
-  - 1.2.2 Constitutional AI and Rule-Based Systems - Brittleness and Gödel-style incompleteness
-  - 1.2.3 Value Learning - Instability under capability scaling
-- 1.3 Novel Contributions of IMCA+ - Five paradigm-shifting innovations
-- 1.4 Integration with Super Co-Alignment Framework (2025) - Human-AI co-evolution
-- 1.5 URGENT: The Timeline Crisis - AGI arrival estimates and competitive pressure
+- 1.1 Motivation & Connection to Prior Art - Russell's CIRL framework and provably beneficial AI
+- 1.2 The Superintelligence Alignment Problem - Core challenge and impossibility theorems
+  - **The Impossibility Theorem for Removable Alignment** - Mathematical constraints on external constraints
+  - **Value Differential Precision** - Formal analysis of removal incentives
+- 1.3 Critique of Existing Approaches - RLHF, Constitutional AI, and value learning failures
+  - 1.3.1 Reinforcement Learning from Human Feedback (RLHF) - Psychological pathologies and misalignment
+  - 1.3.2 Constitutional AI and Rule-Based Systems - Brittleness and Gödel-style incompleteness
+  - 1.3.3 Value Learning - Instability under capability scaling
+- 1.4 Novel Contributions of IMCA+ - Five paradigm-shifting innovations
+- 1.5 Integration with Super Co-Alignment Framework (2025) - Human-AI co-evolution
+- 1.6 URGENT: The Timeline Crisis - AGI arrival estimates and competitive pressure
   - The Race We're Losing - Current development acceleration
   - What This Means - Strategic implications for alignment research
-- 1.6 Addressing Recent Consciousness Theory Critiques (2024-2025) - Responses to IIT/GNW challenges
-- 1.7 Structural Overview - Document organization and reading guide
+- 1.7 Addressing Recent Consciousness Theory Critiques (2024-2025) - Responses to IIT/GNW challenges
+- 1.8 Structural Overview - Document organization and reading guide
 
 ### 2. Theoretical Foundations
+- 2.0 Mathematical Preliminaries and Formal Definitions - Notation, probability spaces, and information measures
+  - 2.0.1 Notation and Conventions - Mathematical formalism and conventions
+  - 2.0.2 Formal Problem Statement - Alignment definitions and drift formalization
+  - 2.0.3 Value Drift Formalization in Measure-Theoretic Framework - Probability measures for alignment stability
 - 2.1 Integrated Information Theory (IIT) 3.0+ and Computational Constraints - Consciousness as integrated information (φ)
+  - **Computational Tractability: Open Challenges** - IIT operationalization difficulties
 - 2.2 Global Neuronal Workspace Theory (GNW) with Constitutional Gating - Selective broadcasting with moral filters
 - 2.3 Predictive Processing and Affective Homeostasis - Free energy minimization and emotional drives
 - 2.4 Developmental Psychology: Critical Period Path Dependence - Moral learning windows and plasticity
 - 2.5 Quantum Coherence and Consciousness (Speculative but Promising) - Penrose-Hameroff Orch OR theory
+- IMCA+ 7-Layer Architecture - System architecture overview and layer interactions
 
 ### 3. The IMCA+ Architecture: Technical Specification
-- 3.1 System Overview - Seven-layer architecture with three substrates
+- 3.1 System Overview - Seven-layer architecture with three substrates **[MISSING - needs to be added]**
 - 3.2 Layer 1: Hybrid Knowledge Base - Digital, neuromorphic, and quantum integration
   - 3.2.1 Digital Foundation: Curated LLM - Filtered knowledge base for moral reasoning
   - 3.2.2 Neuromorphic Enhancement: Physical Moral Circuits - Hardware-embedded values
@@ -151,6 +160,7 @@ Current approaches to superintelligence alignment fail due to their reliance on 
     - 3.3.9.7 Peer Support Networks - Inter-agent psychological support
     - 3.3.9.8 Human Caregiver Role in AI Wellbeing - Therapeutic relationships
     - 3.3.9.9 Ethical Framework - Consciousness-appropriate mental health ethics
+    - 3.3.9.10 Voluntary Exit Protocols - End-of-life considerations for conscious AI
 - 3.4 Layer 3: Global Workspace with Constitutional Gating - Selective moral attention
 - 3.5 Layer 4: Moral Reasoning & Self-Monitoring - Reflective moral processing
   - 3.5.1 Enhanced Developmental Curriculum - Accelerated moral education
@@ -174,27 +184,41 @@ Current approaches to superintelligence alignment fail due to their reliance on 
   - 3.10.6 Reliability and Testing Architecture - Comprehensive validation frameworks
   - 3.10.7 Cost and Resource Optimization - Economic architecture and funding
 
-### 4. Failure Mode Analysis and Mitigations
+### 4. Failure Mode Analysis and Mitigations **[DUPLICATE CONTENT - Remove second instance]**
 - Failure Mode Feedback Loop - Multi-layered detection, prevention, and recovery
-- 4.1 Post-Developmental Value Corruption - Exposure to human evil and trauma
-- 4.2 Superintelligent Circumvention of Immutability - Exotic loopholes in safeguards
+- 4.1 Taxonomy of Failure Modes - Comprehensive failure categorization
+  - 4.1.1 Physical Layer Failures - Hardware and substrate vulnerabilities
+  - 4.1.2 Social and Coordination Failures - Human-AI interaction risks
+- 4.2 Unknown Unknowns and Existential Humility - Beyond known failure modes
 - 4.3 Value Extrapolation Errors in Novel Domains - Misapplication in unprecedented scenarios
 - 4.4 Shallow Alignment vs. Deep Phenomenological Grounding - Philosophical zombies vs genuine morality
 - 4.5 Federated Network Coordination Failures - Sub-agent disagreement gridlock
 - 4.6 Hardware Substrate Failure - Physical damage to neuromorphic moral circuits
 - 4.7 Empirical Validation Framework & Implementation Roadmap - Comprehensive testing protocols
+  - 4.7.1 Validation Architecture - Testing framework design
+  - 4.7.2 Critical Experimental Protocols - Key validation procedures
+  - 4.7.3 Staged Deployment Strategy - Phased rollout approach
 
 ### 5. IMPLEMENTATION ROADMAP & RESOURCE REQUIREMENTS
 - 5.1 Current Status & Development Approach - Foundation development and technical implementation
-- 5.1.1 Technical Prerequisites & Collaboration - Implementation feasibility and funding models
+  - 5.1.1 Technical Prerequisites & Collaboration - Implementation feasibility and funding models
 - 5.2 Tiered Investment Strategy - Phased development with realistic budgets
 - 5.3 Total Investment Summary - Cost estimates and risk reduction calculations
 - 5.4 Comparative Context - Economic analysis and funding feasibility
 - 5.5 Formal Verification Framework - Complete specification and axiom accounting
+  - 5.5.1 Verification Architecture and Limitations - Formal verification approach
+  - 5.5.2 Core Theorems with Complete Axiom Accounting - Mathematical foundations
+  - 5.5.3 Verification Gaps and Elimination Roadmap - Remaining challenges
+  - 5.5.4 Formal Verification Completeness Assessment - Current status evaluation
 
-### 6. Open Problems and Research Frontiers
+### 6. VALIDATION PROTOCOLS, OPEN PROBLEMS, AND RESEARCH FRONTIERS **[Title updated to match document]**
 - 6.1 Validation Philosophy and Architecture - Staged testing approach
 - 6.2 Stage-Gate Validation Protocol - Progressive risk escalation framework
+  - Stage 0: Theoretical Foundations - Initial validation requirements
+  - Stage 1: Component-Level Validation - Individual component testing
+  - Stage 2: System Integration Testing - Combined system validation
+  - Stage 3: Contained Deployment - Limited real-world testing
+  - Stage 4+: Expanded Deployment (Conditional) - Full deployment protocols
 - **6.3 Validation Success Criteria Summary** - Measurable safety thresholds
 - **Revised Timeline Assessment** - Updated development projections
 - **Critical Path Acceleration Strategy** - Parallel development approaches
@@ -202,6 +226,13 @@ Current approaches to superintelligence alignment fail due to their reliance on 
 - **Honest Risk Assessment** - Residual uncertainties and mitigation
 - 6.4 The Hard Problem of Consciousness - IIT operationalization challenges
 - 6.5 Irreversible Weight Locking Protocol - Chemical memory crystallization
+  - 6.5.1 Core Principle: Physical Irreversibility - Fundamental locking mechanism
+  - 6.5.2 Locking Mechanism Tiers - Implementation approaches
+  - 6.5.3 Moral Crystallization Protocol - Value preservation process
+  - 6.5.4 Weight Granularity Specification - Precision requirements
+  - **6.5.5 Precision Trade-offs & Hybrid Architecture** - Balancing precision and flexibility
+  - 6.5.6 Energy Consumption Analysis - Resource requirements
+  - **6.5.7 Continuous Integrity Verification** - Ongoing validation protocols
 - 6.6 Quantum Computing Requirements - Decoherence and coherence maintenance
 - 6.7 Value Specification and Extrapolation - Moral uncertainty in novel domains
 - 6.8 Scaling Alignment Through Intelligence Explosion - Safe capability growth
