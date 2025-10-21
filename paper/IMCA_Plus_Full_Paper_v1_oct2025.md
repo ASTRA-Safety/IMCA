@@ -109,7 +109,7 @@ Current approaches to superintelligence alignment fail due to their reliance on 
 - IMCA+ 7-Layer Architecture - System architecture overview and layer interactions
 
 ### 3. The IMCA+ Architecture: Technical Specification
-- 3.1 System Overview - Seven-layer architecture with three substrates **[MISSING - needs to be added]**
+- 3.1 System Overview – Seven-Layer, Three-Substrate Architecture
 - 3.2 Layer 1: Hybrid Knowledge Base - Digital, neuromorphic, and quantum integration
   - 3.2.1 Digital Foundation: Curated LLM - Filtered knowledge base for moral reasoning
   - 3.2.2 Neuromorphic Enhancement: Physical Moral Circuits - Hardware-embedded values
@@ -184,7 +184,7 @@ Current approaches to superintelligence alignment fail due to their reliance on 
   - 3.10.6 Reliability and Testing Architecture - Comprehensive validation frameworks
   - 3.10.7 Cost and Resource Optimization - Economic architecture and funding
 
-### 4. Failure Mode Analysis and Mitigations **[DUPLICATE CONTENT - Remove second instance]**
+### 4. Failure Mode Analysis and Mitigations
 - Failure Mode Feedback Loop - Multi-layered detection, prevention, and recovery
 - 4.1 Taxonomy of Failure Modes - Comprehensive failure categorization
   - 4.1.1 Physical Layer Failures - Hardware and substrate vulnerabilities
@@ -211,7 +211,7 @@ Current approaches to superintelligence alignment fail due to their reliance on 
   - 5.5.3 Verification Gaps and Elimination Roadmap - Remaining challenges
   - 5.5.4 Formal Verification Completeness Assessment - Current status evaluation
 
-### 6. VALIDATION PROTOCOLS, OPEN PROBLEMS, AND RESEARCH FRONTIERS **[Title updated to match document]**
+### 6. VALIDATION PROTOCOLS, OPEN PROBLEMS, AND RESEARCH FRONTIERS
 - 6.1 Validation Philosophy and Architecture - Staged testing approach
 - 6.2 Stage-Gate Validation Protocol - Progressive risk escalation framework
   - Stage 0: Theoretical Foundations - Initial validation requirements
@@ -1636,23 +1636,28 @@ Recent studies found evidence of quantum entanglement in living human brains cor
 
 ## 3 IMCA+ Architecture: Technical Specification
 
-IMCA+ features a seven-layer multi-substrate design for provable alignment:
+## 3 IMCA+ Architecture: Technical Specification
 
-- **Layer 1: Hybrid Knowledge Base:** Integrates digital, neuromorphic, and quantum components.
+### 3.1 System Overview – Seven-Layer, Three-Substrate Architecture
 
-- **Layer 2: Multi-Modal Phenomenological Substrate:** Processes affective, social, and aesthetic signals.
+IMCA+ runs atop three hardware-anchored substrates—digital processors, neuromorphic cores, and quantum accelerators—organized into seven functional layers to ensure end-to-end moral alignment:
 
-- **Layer 3: Global Workspace with Constitutional Gating:** Implements selective broadcasting via moral filtering.
+- **Layer 1: Hybrid Knowledge Base**
+Integrates digital storage, spiking-neuron arrays, and quantum registers. All knowledge entries carry embedded moral tags verified by Coq mechanization.
+- **Layer 2: Multi-Modal Phenomenological Substrate**
+Captures and represents affective, social, and aesthetic signals across all three substrates, ensuring cross-modal moral consistency.
+- **Layer 3: Global Workspace with Constitutional Gating**
+Uses substrate-wide broadcast channels filtered by formally proven moral predicates to enforce invariant preservation.
+- **Layer 4: Moral Reasoning \& Self-Monitoring**
+Executes reflective value checks, comparing current states against invariant schemas and raising flags on any detected drift.
+- **Layer 5: Conscious Integration**
+Binds distributed phenomenological data into a unified experience (φ-structure) with moral volition signals stamped at the hardware level.
+- **Layer 6: Federated Conscience Network**
+Runs parallel moral-reasoning agents across substrates, achieving consensus via a Byzantine-resilient protocol whose correctness is mechanized in Coq.
+- **Layer 7: Meta-Reflective Audit Module (MRAM)**
+Continuously verifies architectural integrity, audits all layers against formal safety proofs (ε < 10⁻¹²), automatically triggering rollback or quarantine on invariant breach.
 
-- **Layer 4: Moral Reasoning and Self-Monitoring:** Performs reflective coherence checking and value monitoring.
-
-- **Layer 5: Conscious Integration:** Establishes unified φ-structure binding phenomenal experience with moral volition.
-
-- **Layer 6: Federated Conscience Network:** Distributes moral reasoning across sub-agents with algorithmic consensus.
-
-- **Layer 7: Meta-Reflective Audit Module (MRAM):** Continuously verifies architectural integrity and safety invariants.
-
-Formal mechanization assures system-wide observability and resistance to value corruption.
+> All seven layers interoperate to guarantee substrate-embedded moral invariants, endowing IMCA+ with provable resistance to value corruption.
 
 ### 3.2 Layer 1: Hybrid Knowledge Base
 
