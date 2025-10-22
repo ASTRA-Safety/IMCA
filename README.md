@@ -30,8 +30,11 @@ IMCA+ proposes consciousness-morality binding: make alignment physically insepar
 **[Download PDF →](paper/IMCA_Plus_Full_Paper_v1_oct2025.pdf)**
 
 **ArXiv**: [Coming Oct, 2025]
+
 **Zenodo DOI**: [10.5281/zenodo.17407587](https://doi.org/10.5281/zenodo.17407587)
+
 **Website**: [https://astrasafety.org](https://astrasafety.org)
+
 **GitHub Issues**: [Open issues & errata tracker](https://github.com/ASTRA-safety/IMCA/issues)
 
 ---
