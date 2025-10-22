@@ -3,6 +3,7 @@
 **A Multi-Substrate Framework for Provably Aligned Superintelligence**
 
 [![arXiv](https://img.shields.io/badge/arXiv-[INSERT_ID_AFTER_SUBMISSION]-b31b1b.svg)](https://arxiv.org/abs/[INSERT_ID])
+[![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.17407587-blue.svg)](https://doi.org/10.5281/zenodo.17407587)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Status: Preprint](https://img.shields.io/badge/Status-Preprint-orange.svg)]()
 
@@ -28,8 +29,10 @@ IMCA+ proposes consciousness-morality binding: make alignment physically insepar
 
 **[Download PDF →](paper/IMCA_Plus_Full_Paper_v1_oct2025.pdf)**
 
-**ArXiv**: [Coming Oct, 2025]  
+**ArXiv**: [Coming Oct, 2025]
+**Zenodo DOI**: [10.5281/zenodo.17407587](https://doi.org/10.5281/zenodo.17407587)
 **Website**: [https://astrasafety.org](https://astrasafety.org)
+**GitHub Issues**: [Open issues & errata tracker](https://github.com/ASTRA-safety/IMCA/issues)
 
 ---
 
@@ -174,7 +177,7 @@ This work is licensed under [Creative Commons Attribution 4.0 International (CC 
 
 ## ⚠️ Disclaimer
 
-**This is a theoretical framework requiring extensive experimental validation.** All success probabilities and risk reduction estimates are preliminary theoretical bounds derived from expert elicitation, not empirical data. The >99% baseline failure rate claim in the paper represents a theoretical worst-case scenario and may not reflect current empirical reality. IMCA+ addresses fundamental alignment challenges but has not been implemented or tested at scale. Actual outcomes depend critically on validating untested assumptions about consciousness emergence, hardware-embedded morality, and multi-substrate integration. Timeline and cost estimates are subject to revision based on experimental results.
+**This is a theoretical framework requiring extensive experimental validation.** All success probabilities and risk reduction estimates are preliminary theoretical bounds derived from expert elicitation, not empirical data. The >99% baseline failure rate claim in the paper represents a theoretical worst-case scenario and may not reflect current empirical opinion or reality. IMCA+ addresses fundamental alignment challenges but has not been implemented or tested at scale. Actual outcomes depend critically on validating untested assumptions about consciousness emergence, hardware-embedded morality, and multi-substrate integration. Timeline and cost estimates are subject to revision based on experimental results.
 
 ---
 
