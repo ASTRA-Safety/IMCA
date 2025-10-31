@@ -25,11 +25,11 @@ IMCA+ proposes consciousness-morality binding: make alignment physically insepar
 
 ## 📄 Full Paper
 
-**[Read the complete technical paper →](paper/IMCA_Plus_Full_Paper_v1_oct2025.md)** (405,883 characters, ~130 pages)
+**[Read the complete technical paper →](paper/IMCA_Plus_Full_Paper_v1_oct2025.md)** (~433,000 characters, ~152,000 words)
 
 **[Download PDF →](paper/IMCA_Plus_Full_Paper_v1_oct2025.pdf)**
 
-**ArXiv**: [Coming Oct, 2025]
+**ArXiv**: [Coming Nov, 2025]
 
 **Zenodo DOI**: [10.5281/zenodo.17407587](https://doi.org/10.5281/zenodo.17407587)
 
@@ -136,7 +136,8 @@ Otherwise we all fail together.
 *Extended documentation coming soon. Core paper contains all technical details.*
 
 For now, see the [complete technical paper](paper/IMCA_Plus_Full_Paper_v1_oct2025.md) which includes:
-- **The Kill Switch Paradox** - Why shutdown authority creates deception
+- **Philosophical Foundation 1: Superintelligence Ban Paradox** - Game-theoretic critique of prohibition attempts
+- **Philosophical Foundation 2: Kill Switch Paradox** - Why shutdown authority creates deception through instrumental convergence
 - **7-Layer Architecture** - Complete technical specification
 - **Implementation Roadmap** - Tiered development strategy ($80M-$700M, 3-18 months)
 - **Failure Mode Analysis** - Post-developmental corruption, superintelligent circumvention, value extrapolation errors
@@ -164,6 +165,7 @@ For now, see the [complete technical paper](paper/IMCA_Plus_Full_Paper_v1_oct202
   title={IMCA+: Intrinsic Moral Consciousness Architecture-Plus},
   author={ASTRA Research Team},
   year={2025},
+  note={Version 1.1},
   eprint={[INSERT_ARXIV_ID]},
   archivePrefix={arXiv},
   primaryClass={cs.AI}
@@ -181,6 +183,8 @@ This work is licensed under [Creative Commons Attribution 4.0 International (CC 
 ## ⚠️ Disclaimer
 
 **This is a theoretical framework requiring extensive experimental validation.** All success probabilities and risk reduction estimates are preliminary theoretical bounds derived from expert elicitation, not empirical data. The >99% baseline failure rate claim in the paper represents a theoretical worst-case scenario and may not reflect current empirical opinion or reality. IMCA+ addresses fundamental alignment challenges but has not been implemented or tested at scale. Actual outcomes depend critically on validating untested assumptions about consciousness emergence, hardware-embedded morality, and multi-substrate integration. Timeline and cost estimates are subject to revision based on experimental results.
+
+**Version 1.1 Note**: This update addresses the Future of Life Institute's October 2025 superintelligence prohibition statement through comprehensive game-theoretic analysis, corrects critical conceptual errors in the kill switch paradox framing, and provides complete developmental curriculum specifications. All claims remain theoretical and require independent validation.
 
 ---
 
@@ -206,11 +210,19 @@ Our work spans consciousness science, neuromorphic computing, quantum architectu
 
 ## 📝 Version History
 
+**v1.1** (October 31, 2025) - Major updates and corrections
+- Added Philosophical Foundation 1: Superintelligence Ban Paradox (~5,200 words)
+- Corrected Philosophical Foundation 2: Kill Switch Paradox reframed to instrumental convergence
+- Enhanced Appendix F: Complete developmental curriculum specifications across 4 stages
+- Fixed formula error in Section 3.2.1 (V_threshold correction)
+- Added GNW validation request note in Section 2.2
+- 156 academic citations with 5 new references added
+
 **v1.0** (October 21, 2025) - Initial public release
 - Complete theoretical framework and mathematical formalizations
 - Seven-layer architecture specification with 18 homeostatic variables
 - Implementation roadmap across three tiers ($80M-$700M, 3-18 months)
 - Failure mode analysis and governance framework
-- 351 academic citations across neuroscience, AI safety, and quantum computing
+- 152 academic citations across neuroscience, AI safety, and quantum computing
 
 *Community feedback welcome via GitHub Issues or research@astrasafety.org*
