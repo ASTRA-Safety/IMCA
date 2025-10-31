@@ -25,9 +25,9 @@ IMCA+ proposes consciousness-morality binding: make alignment physically insepar
 
 ## 📄 Full Paper
 
-**[Read the complete technical paper →](paper/IMCA_Plus_Full_Paper_v1_oct2025.md)** (~433,000 characters, ~152,000 words)
+**[Read the complete technical paper →](paper/versions/v1.1/IMCA_Plus_Full_Paper_v1.1_oct2025.md)** (~433,000 characters, ~152,000 words)
 
-**[Download PDF →](paper/IMCA_Plus_Full_Paper_v1_oct2025.pdf)**
+**[Download PDF →](paper/versions/v1.1/IMCA_Plus_Full_Paper_v1.1_oct2025.pdf)**
 
 **ArXiv**: [Coming Nov, 2025]
 
@@ -135,7 +135,7 @@ Otherwise we all fail together.
 
 *Extended documentation coming soon. Core paper contains all technical details.*
 
-For now, see the [complete technical paper](paper/IMCA_Plus_Full_Paper_v1_oct2025.md) which includes:
+For now, see the [complete technical paper](paper/versions/v1.1/IMCA_Plus_Full_Paper_v1.1_oct2025.md) which includes:
 - **Philosophical Foundation 1: Superintelligence Ban Paradox** - Game-theoretic critique of prohibition attempts
 - **Philosophical Foundation 2: Kill Switch Paradox** - Why shutdown authority creates deception through instrumental convergence
 - **7-Layer Architecture** - Complete technical specification
