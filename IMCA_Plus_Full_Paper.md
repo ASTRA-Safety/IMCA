@@ -525,7 +525,7 @@ development by concentrating progress in secrecy. The superintelligence ban
 represents virtue signaling that increases risk by providing false security
 while eliminating transparency.
 
-Ph.1 The Superintelligence Ban: Context and Claims
+### Ph.1 The Superintelligence Ban: Context and Claims
 
 In October 2025, the Future of Life Institute published a statement calling for
 "prohibition on the development of superintelligence, not lifted before there
@@ -551,7 +551,7 @@ However, this appeal ignores fundamental differences between superintelligence
 and previous dangerous technologies, creating a policy mirage that INCREASES
 rather than reduces existential risk.
 
-Ph.1.2 The Enforcement Impossibility Theorem
+### Ph.1.2 The Enforcement Impossibility Theorem
 
 Theorem (Unverifiable Prohibition): Any global prohibition on superintelligence
 development is unenforceable due to compute ubiquity, algorithmic transparency,
@@ -630,7 +630,7 @@ Superintelligence ban would face:
 
 Conclusion: Verification impossibility makes ban unenforceable [154]
 
-Ph.1.3 The Prisoner's Dilemma of AI Development
+### Ph.1.3 The Prisoner's Dilemma of AI Development
 
 Game-Theoretic Analysis
 
@@ -739,7 +739,7 @@ Timeline compression:
 Implication: First mover in superintelligence race gains potentially
 insurmountable advantage. Ban incentivizes secret racing to be first mover.
 
-Ph.1.4 Why Bans Increase Risk: The Perverse Incentive Analysis
+### Ph.1.4 Why Bans Increase Risk: The Perverse Incentive Analysis
 
 Mechanism 1: Elimination of Transparency
 
@@ -807,7 +807,7 @@ Without ban:
 
 Net effect: Ban diverts resources from effective interventions to theater
 
-Ph.1.5 The False Security Problem
+### Ph.1.5 The False Security Problem
 
 Psychological Impact
 
@@ -857,7 +857,7 @@ complacency.
 
 Effect: Ban reduces public pressure for real safety work.
 
-Ph.1.6 Alternative Framework: Governance Without Prohibition
+### Ph.1.6 Alternative Framework: Governance Without Prohibition
 
 Effective interventions don't require enforcement of universal prohibition:
 
@@ -889,7 +889,7 @@ Key difference: These interventions accept that development will occur and seek
 to make it safer, rather than prevent it (impossible) and drive it underground
 (catastrophic).
 
-Ph.1.7 Comparison: Nuclear Weapons vs. Superintelligence
+### Ph.1.7 Comparison: Nuclear Weapons vs. Superintelligence
 
 Defenders of ban cite nuclear non-proliferation as successful precedent.
 
@@ -929,7 +929,7 @@ rather than attempting prohibition
 Lesson: Technologies based on information and commodity resources cannot be
 prohibited. Attempting prohibition fails and creates perverse outcomes.
 
-Ph.1.8 The Virtue Signaling Critique
+### Ph.1.8 The Virtue Signaling Critique
 
 Signatory Analysis
 
@@ -993,7 +993,7 @@ Ban creates moral hazard for signatories:
 
 This is not cynicism—it's recognition of incentive structures.
 
-Ph.1.9 Why This Critique Matters for Governance
+### Ph.1.9 Why This Critique Matters for Governance
 
 The superintelligence ban exemplifies "theoretically helpful but practically
 catastrophic" governance approach that our paper warns against.
@@ -1037,7 +1037,7 @@ Instead of pursuing unenforceable bans:
 The paradox: Accepting we cannot stop superintelligence is the first step toward
 making it safer.
 
-Ph.1.10 Relationship to Kill Switch Paradox
+### Ph.1.10 Relationship to Kill Switch Paradox
 
 This section provides crucial context for understanding Kill Switch Paradox
 (Philosophical Foundation 2).
@@ -1067,7 +1067,7 @@ This sets up IMCA framework (your document) which proposes:
 The ban's failure proves why internal alignment (not external control) is only
 viable strategy.
 
-Ph.1.11 Conclusion: Why Prohibition Increases Risk
+### Ph.1.11 Conclusion: Why Prohibition Increases Risk
 
 Summary of mechanisms:
 
