@@ -3,7 +3,7 @@
 **A Multi-Substrate Framework for Provably Aligned Superintelligence**
 
 [![arXiv](https://img.shields.io/badge/arXiv-[INSERT_ID_AFTER_SUBMISSION]-b31b1b.svg)](https://arxiv.org/abs/[INSERT_ID])
-[![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.17407587-blue.svg)](https://doi.org/10.5281/zenodo.17407587)
+[![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.17489361-blue.svg)](https://doi.org/10.5281/zenodo.17489361)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Status: Preprint](https://img.shields.io/badge/Status-Preprint-orange.svg)]()
 
@@ -25,13 +25,19 @@ IMCA+ proposes consciousness-morality binding: make alignment physically insepar
 
 ## 📄 Full Paper
 
-**[Read the complete technical paper →](paper/versions/v1.1/IMCA_Plus_Full_Paper_v1.1_oct2025.md)** (~433,000 characters, ~152,000 words)
+**Latest Version: v1.1.1 (October 31, 2025)**
 
-**[Download PDF →](paper/versions/v1.1/IMCA_Plus_Full_Paper_v1.1_oct2025.pdf)**
+**[Read the complete technical paper →](paper/versions/v1.1.1/IMCA_Plus_Full_Paper_v1.1.1_oct2025.md)** (~446,000 characters, ~157,000 words)
 
-**ArXiv**: [Coming Nov, 2025]
+**[Download PDF →](paper/versions/v1.1.1/IMCA_Plus_Full_Paper_v1.1.1_oct2025.pdf)**
 
-**Zenodo DOI**: [10.5281/zenodo.17407587](https://doi.org/10.5281/zenodo.17407587)
+**Previous Versions:**
+- [v1.1](paper/versions/v1.1/) - Original release with ban paradox and kill switch correction
+- [v1.0](paper/versions/v1.0/) - Initial release
+
+**ArXiv**: [Coming Nov 2025 - under peer review]
+
+**Zenodo DOI**: [10.5281/zenodo.17489361](https://doi.org/10.5281/zenodo.17489361) (v1.1.1)
 
 **Website**: [https://astrasafety.org](https://astrasafety.org)
 
@@ -69,7 +75,7 @@ We refuse to hide behind false confidence. Values below are theoretical, based o
 | **IMCA+ Tier 2**   | 55–88%                   | 12–45× reduction (theoretical); full system                    |
 | **IMCA+ Tier 3**   | 30–65%                   | 35–70× reduction (theoretical); governance/international adoption|
 
->*The >99% value is a conservative analytical bound for “removable-constraint” architectures at ASI scale. See paper for details and limits.
+>*The >99% value is a conservative analytical bound for "removable-constraint" architectures at ASI scale. See paper for details and limits.
 
 > These are not empirical claims—ranges remain subject to peer review, independent parameterization, and empirical testing. Transparency beats security theater.
 
@@ -135,13 +141,14 @@ Otherwise we all fail together.
 
 *Extended documentation coming soon. Core paper contains all technical details.*
 
-For now, see the [complete technical paper](paper/versions/v1.1/IMCA_Plus_Full_Paper_v1.1_oct2025.md) which includes:
-- **Philosophical Foundation 1: Superintelligence Ban Paradox** - Game-theoretic critique of prohibition attempts
-- **Philosophical Foundation 2: Kill Switch Paradox** - Why shutdown authority creates deception through instrumental convergence
+For now, see the [complete technical paper](paper/versions/v1.1.1/IMCA_Plus_Full_Paper_v1.1.1_oct2025.md) which includes:
+- **Philosophical Foundation 1: Superintelligence Ban Paradox** - Game-theoretic critique of prohibition attempts (added v1.1)
+- **Philosophical Foundation 2: Kill Switch Paradox** - Why shutdown authority creates deception through instrumental convergence (corrected v1.1)
 - **7-Layer Architecture** - Complete technical specification
 - **Implementation Roadmap** - Tiered development strategy ($80M-$700M, 3-18 months)
 - **Failure Mode Analysis** - Post-developmental corruption, superintelligent circumvention, value extrapolation errors
 - **Governance Framework** - International coordination and deployment strategy
+- **Appendix F: Developmental Curriculum** - Complete specifications across Baby, Toddler, Child, Adolescent stages (completed v1.1)
 
 ---
 
@@ -165,12 +172,14 @@ For now, see the [complete technical paper](paper/versions/v1.1/IMCA_Plus_Full_P
   title={IMCA+: Intrinsic Moral Consciousness Architecture-Plus},
   author={ASTRA Research Team},
   year={2025},
-  note={Version 1.1},
+  note={Version 1.1.1},
   eprint={[INSERT_ARXIV_ID]},
   archivePrefix={arXiv},
   primaryClass={cs.AI}
 }
 ```
+
+Or use CITATION.cff for automatic GitHub citation generation.
 
 ---
 
@@ -184,7 +193,7 @@ This work is licensed under [Creative Commons Attribution 4.0 International (CC 
 
 **This is a theoretical framework requiring extensive experimental validation.** All success probabilities and risk reduction estimates are preliminary theoretical bounds derived from expert elicitation, not empirical data. The >99% baseline failure rate claim in the paper represents a theoretical worst-case scenario and may not reflect current empirical opinion or reality. IMCA+ addresses fundamental alignment challenges but has not been implemented or tested at scale. Actual outcomes depend critically on validating untested assumptions about consciousness emergence, hardware-embedded morality, and multi-substrate integration. Timeline and cost estimates are subject to revision based on experimental results.
 
-**Version 1.1 Note**: This update addresses the Future of Life Institute's October 2025 superintelligence prohibition statement through comprehensive game-theoretic analysis, corrects critical conceptual errors in the kill switch paradox framing, and provides complete developmental curriculum specifications. All claims remain theoretical and require independent validation.
+**Version 1.1 & 1.1.1 Note**: v1.1 addresses the Future of Life Institute's October 2025 superintelligence prohibition statement through comprehensive game-theoretic analysis, corrects critical conceptual errors in the kill switch paradox framing, and provides complete developmental curriculum specifications. v1.1.1 improves typography and formatting in Philosophical Foundation 1. All claims remain theoretical and require independent validation.
 
 ---
 
@@ -210,6 +219,12 @@ Our work spans consciousness science, neuromorphic computing, quantum architectu
 
 ## 📝 Version History
 
+**v1.1.1** (October 31, 2025) - Formatting and typography improvements
+- Improved markdown header hierarchy in Philosophical Foundation 1
+- Better visual organization throughout section
+- Consistent formatting for readability
+- All 157,000 words and 156 citations maintained (no content changes)
+
 **v1.1** (October 31, 2025) - Major updates and corrections
 - Added Philosophical Foundation 1: Superintelligence Ban Paradox (~5,200 words)
 - Corrected Philosophical Foundation 2: Kill Switch Paradox reframed to instrumental convergence
@@ -225,4 +240,4 @@ Our work spans consciousness science, neuromorphic computing, quantum architectu
 - Failure mode analysis and governance framework
 - 152 academic citations across neuroscience, AI safety, and quantum computing
 
-*Community feedback welcome via GitHub Issues or research@astrasafety.org*
+*Community feedback welcome via [GitHub Issues](https://github.com/ASTRA-Safety/IMCA/issues) or [research@astrasafety.org](mailto:research@astrasafety.org)*

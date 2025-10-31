@@ -5,7 +5,7 @@ authors:
     affiliation: "Alignment Science & Technology Research Alliance"
     website: "https://astrasafety.org"
 title: "IMCA+: Intrinsic Moral Consciousness Architecture-Plus: A Multi-Substrate Framework for Provably Aligned Superintelligence"
-version: 1.1
+version: 1.1.1
 date-released: 2025-10-31
 url: "https://github.com/ASTRA-Safety/IMCA"
 repository-code: "https://github.com/ASTRA-Safety/IMCA"
@@ -27,7 +27,7 @@ references:
       - name: "ASTRA Research Team"
     title: "IMCA+ Framework - GitHub Repository"
     url: "https://github.com/ASTRA-Safety/IMCA"
-    version: 1.1
+    version: 1.1.1
     date-released: 2025-10-31
   - type: article
     authors:
@@ -35,4 +35,4 @@ references:
     title: "Intrinsic Moral Consciousness Architecture-Plus: A Multi-Substrate Framework for Provably Aligned Superintelligence"
     url: "https://zenodo.org/records/17407587"
     year: 2025
-    version: 1.1
+    version: 1.1.1
