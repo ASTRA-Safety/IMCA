@@ -27,7 +27,7 @@ IMCA+ proposes consciousness-morality binding: make alignment physically insepar
 
 **Latest Version: v1.1.1 (October 31, 2025)**
 
-**[Read the complete technical paper →](paper/versions/v1.1.1/IMCA_Plus_Full_Paper_v1.1.1_oct2025.md)** (~446,000 characters, ~157,000 words)
+**[Read the complete technical paper →](paper/versions/v1.1.1/IMCA_Plus_Full_Paper_v1.1.1_oct2025.md)**
 
 **[Download PDF →](paper/versions/v1.1.1/IMCA_Plus_Full_Paper_v1.1.1_oct2025.pdf)**
 
