@@ -34,6 +34,7 @@ Zenodo DOI: https://doi.org/10.5281/zenodo.17407587
   - Added post-quantum cryptographic hardening with NIST standards
   - Enhanced TRL assessment and 2025-2030 implementation roadmap
   - Updated abstract and contributions to reflect quantum integration
+  - Sections formerly numbered 5–9 are now 6–10 after the addition of Quantum-Enhanced Verification Infrastructure as Section 4. All intra-document and ToC references updated.
 - Added Philosophical Foundation 1: Superintelligence Ban Paradox (~5,200 words)
 - Corrected Philosophical Foundation 2: Kill Switch Paradox conceptual framing
 - Enhanced Appendix F: Expanded developmental curriculum specifications
