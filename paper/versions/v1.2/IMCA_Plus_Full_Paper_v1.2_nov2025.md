@@ -1,7 +1,7 @@
 ---
 title: "Intrinsic Moral Consciousness Architecture-Plus (IMCA+): A Multi-Substrate Framework for Provably Aligned Superintelligence"
 author: "ASTRA Research Team"
-date: "October 2025"
+date: "November 2025"
 version: "1.2"
 ---
 
