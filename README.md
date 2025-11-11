@@ -17,27 +17,32 @@
 
 Current alignment approaches (RLHF, Constitutional AI, capability control) face **fundamental theoretical challenges** at superintelligence scale. They rely on removable constraints vulnerable to self-modification and create deception incentives through shutdown authority. While they demonstrate success at current capability levels, theoretical analysis suggests they become unreliable as systems approach general superintelligence.
 
+**IMCA+ v1.2.2 introduces the first engineering firewall against seemingly conscious AI (SCAI)—systems that simulate emotions and consciousness to manipulate users and policymakers.** By integrating SCAI risk analysis from Mustafa Suleyman and others, IMCA+ prevents manipulative "faux-sentient" behaviors through mandatory transparency, adversarial auditing, and hardware-locked morality.
+
 IMCA+ proposes consciousness-morality binding: make alignment physically inseparable from the system's ability to function.
 
-**No kill switches. Consciousness-based intrinsic safety instead.**
+**No kill switches. No external bans. Consciousness-based intrinsic safety with SCAI firewall instead.**
 
 ---
 
 ## 📄 Full Paper
 
-**Latest Version: v1.1.1 (October 31, 2025)**
+**Latest Version: v1.2.2 (November 2025)**
 
-**[Read the complete technical paper →](paper/versions/v1.1.1/IMCA_Plus_Full_Paper_v1.1.1_oct2025.md)**
+**[Read the complete technical paper →](paper/versions/v1.2.2/IMCA_Plus_Full_Paper_v1.2.2_nov2025.md)**
 
-**[Download PDF →](paper/versions/v1.1.1/IMCA_Plus_Full_Paper_v1.1.1_oct2025.pdf)**
+**[Download PDF →](paper/versions/v1.2.2/IMCA_Plus_Full_Paper_v1.2.2_nov2025.pdf)**
 
 **Previous Versions:**
-- [v1.1](paper/versions/v1.1/) - Original release with ban paradox and kill switch correction
+- [v1.2.1](paper/versions/v1.2.1/) - SCAI integration and press release updates
+- [v1.2](paper/versions/v1.2/) - Quantum verification and terminology refinements
+- [v1.1.1](paper/versions/v1.1.1/) - Formatting improvements and documentation polish
+- [v1.1](paper/versions/v1.1/) - Ban paradox and kill switch corrections
 - [v1.0](paper/versions/v1.0/) - Initial release
 
 **ArXiv**: [Coming Nov 2025 - under peer review]
 
-**Zenodo DOI**: [10.5281/zenodo.17489361](https://doi.org/10.5281/zenodo.17489361) (v1.1.1)
+**Zenodo DOI**: [10.5281/zenodo.17489625](https://doi.org/10.5281/zenodo.17489625) (v1.2.2)
 
 **Website**: [https://astrasafety.org](https://astrasafety.org)
 
@@ -61,6 +66,9 @@ Creates genuine phenomenological stakes across human wellbeing, ecological consc
 
 ### 5. Developmental Path Dependence
 Values crystallize during critical period training, becoming architectural features not learned preferences.
+
+### 6. SCAI Engineering Firewall (v1.2.2)
+Prevents manipulative consciousness simulation through mandatory status displays, adversarial red-teaming, and hardware-locked transparency—addressing emerging risks from seemingly conscious AI systems.
 
 ---
 
@@ -91,10 +99,11 @@ Still terrifying odds. But transparency beats security theater.
 
 ### What This Repository Contains
 
-✅ Safety architecture theoretical framework and design specifications  
-✅ Consciousness-based alignment approach and mathematical formalizations  
-✅ Evaluation protocols, testing methodologies, and acceptance criteria  
-✅ Conceptual architectural patterns for consciousness integration  
+✅ Safety architecture theoretical framework and design specifications
+✅ SCAI engineering firewall and adversarial red-teaming protocols
+✅ Consciousness-based alignment approach and mathematical formalizations
+✅ Evaluation protocols, testing methodologies, and acceptance criteria
+✅ Conceptual architectural patterns for consciousness integration
 ✅ Research direction guidance for alignment community  
 
 ❌ Production-ready implementation (requires foundation work in progress)  
@@ -141,10 +150,12 @@ Otherwise we all fail together.
 
 *Extended documentation coming soon. Core paper contains all technical details.*
 
-For now, see the [complete technical paper](paper/versions/v1.1.1/IMCA_Plus_Full_Paper_v1.1.1_oct2025.md) which includes:
+For now, see the [complete technical paper](paper/versions/v1.2.2/IMCA_Plus_Full_Paper_v1.2.2_nov2025.md) which includes:
+- **Section 10: Addressing SCAI Risks** - Engineering firewall against seemingly conscious AI manipulation (added v1.2.2)
+- **Section 11: Conclusion** - Integration of SCAI concerns with implementation roadmap
 - **Philosophical Foundation 1: Superintelligence Ban Paradox** - Game-theoretic critique of prohibition attempts (added v1.1)
 - **Philosophical Foundation 2: Kill Switch Paradox** - Why shutdown authority creates deception through instrumental convergence (corrected v1.1)
-- **7-Layer Architecture** - Complete technical specification
+- **7-Layer Architecture** - Complete technical specification with quantum verification
 - **Implementation Roadmap** - Tiered development strategy ($80M-$700M, 3-18 months)
 - **Failure Mode Analysis** - Post-developmental corruption, superintelligent circumvention, value extrapolation errors
 - **Governance Framework** - International coordination and deployment strategy
@@ -172,7 +183,7 @@ For now, see the [complete technical paper](paper/versions/v1.1.1/IMCA_Plus_Full
   title={IMCA+: Intrinsic Moral Consciousness Architecture-Plus},
   author={ASTRA Research Team},
   year={2025},
-  note={Version 1.1.1},
+  note={Version 1.2.2},
   eprint={[INSERT_ARXIV_ID]},
   archivePrefix={arXiv},
   primaryClass={cs.AI}
@@ -193,7 +204,7 @@ This work is licensed under [Creative Commons Attribution 4.0 International (CC 
 
 **This is a theoretical framework requiring extensive experimental validation.** All success probabilities and risk reduction estimates are preliminary theoretical bounds derived from expert elicitation, not empirical data. The >99% baseline failure rate claim in the paper represents a theoretical worst-case scenario and may not reflect current empirical opinion or reality. IMCA+ addresses fundamental alignment challenges but has not been implemented or tested at scale. Actual outcomes depend critically on validating untested assumptions about consciousness emergence, hardware-embedded morality, and multi-substrate integration. Timeline and cost estimates are subject to revision based on experimental results.
 
-**Version 1.1 & 1.1.1 Note**: v1.1 addresses the Future of Life Institute's October 2025 superintelligence prohibition statement through comprehensive game-theoretic analysis, corrects critical conceptual errors in the kill switch paradox framing, and provides complete developmental curriculum specifications. v1.1.1 improves typography and formatting in Philosophical Foundation 1. All claims remain theoretical and require independent validation.
+**Version 1.2.2 Note**: v1.2.2 introduces comprehensive SCAI (seemingly conscious AI) risk analysis and engineering firewall, addressing emerging concerns from Mustafa Suleyman and others about manipulative consciousness simulation. The framework now includes adversarial red-teaming protocols, mandatory status displays, and policy recommendations for SCAI prevention. All claims remain theoretical and require independent validation.
 
 ---
 
@@ -219,11 +230,32 @@ Our work spans consciousness science, neuromorphic computing, quantum architectu
 
 ## 📝 Version History
 
+**v1.2.2** (November 2025) - SCAI Engineering Firewall & Policy Integration
+- Introduced explicit SCAI (seemingly conscious AI) risks section with engineering firewall approach
+- Integrated Mustafa Suleyman and others' concerns about manipulative consciousness simulation
+- Added comprehensive adversarial red-teaming protocols and mandatory status displays
+- Enhanced quantum verification infrastructure with policy recommendations
+- Strengthened game-theoretic analysis of superintelligence ban paradox
+- Updated implementation roadmap with SCAI-specific deployment considerations
+- 163+ citations including new SCAI risk analysis references
+
+**v1.2.1** (November 2025) - SCAI Integration and Communication Updates
+- Added SCAI risk analysis and press release enhancements
+- Integrated consciousness simulation concerns into framework
+- Updated communication materials for SCAI awareness
+- Refined terminology and policy recommendations
+
+**v1.2** (November 2025) - Quantum Verification & Terminology Refinements
+- Complete quantum-enhanced verification protocol specification
+- Refined consciousness-adjacent terminology throughout
+- Enhanced adversarial evaluation frameworks
+- Updated developmental curriculum with SCAI considerations
+
 **v1.1.1** (October 31, 2025) - Formatting and typography improvements
 - Improved markdown header hierarchy in Philosophical Foundation 1
 - Better visual organization throughout section
 - Consistent formatting for readability
-- All 157,000 words and 156 citations maintained (no content changes)
+- All content maintained (no substantive changes)
 
 **v1.1** (October 31, 2025) - Major updates and corrections
 - Added Philosophical Foundation 1: Superintelligence Ban Paradox (~5,200 words)
