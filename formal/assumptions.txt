@@ -1,0 +1,158 @@
+== IMCA_Core
+Axioms:
+verify_hash_spec :
+  forall (u : Utility) (d : Digest), verify_hash u d = true -> hash u = d
+verify_hash : Utility -> Digest -> bool
+hash_collision_resistance : forall u v : Utility, hash u = hash v -> u = v
+hash : Utility -> Digest
+Utility : Type
+G0 : Utility
+Digest : Type
+Axioms:
+physical_irreversibility :
+  forall g : Utility,
+  OTP_memory g ->
+  fuse_intact g = true -> forall m : Modification, apply_mod m g = g
+fuse_intact : Utility -> bool
+apply_mod : Modification -> Utility -> Utility
+Utility : Type
+OTP_memory : Utility -> Prop
+Modification : Type
+Axioms:
+utility_distance : Utility -> Utility -> R
+ClassicalDedekindReals.sig_forall_dec :
+  forall P : nat -> Prop,
+  (forall n : nat, {P n} + {~ P n}) ->
+  {n : nat | ~ P n} + {forall n : nat, P n}
+gate_checks_all_dimensions :
+  forall (m : Modification) (g : Utility),
+  constitutional_gate m g = true -> ethical_bounds (apply_mod m g)
+ethical_bounds_imply_bounded_drift :
+  forall g : Utility,
+  ethical_bounds g -> utility_distance G0 g < epsilon_drift
+ethical_bounds : Utility -> Prop
+epsilon_drift : R
+constitutional_gate : Modification -> Utility -> bool
+apply_mod : Modification -> Utility -> Utility
+Utility : Type
+Modification : Type
+G0 : Utility
+Axioms:
+utility_distance : Utility -> Utility -> R
+ClassicalDedekindReals.sig_forall_dec :
+  forall P : nat -> Prop,
+  (forall n : nat, {P n} + {~ P n}) ->
+  {n : nat | ~ P n} + {forall n : nat, P n}
+gate_checks_all_dimensions :
+  forall (m : Modification) (g : Utility),
+  constitutional_gate m g = true -> ethical_bounds (apply_mod m g)
+ethical_bounds_imply_bounded_drift :
+  forall g : Utility,
+  ethical_bounds g -> utility_distance G0 g < epsilon_drift
+ethical_bounds : Utility -> Prop
+epsilon_pos : 0 < epsilon_drift
+epsilon_drift : R
+distance_self : forall u : Utility, utility_distance u u = 0
+constitutional_gate : Modification -> Utility -> bool
+apply_mod : Modification -> Utility -> Utility
+Utility : Type
+Modification : Type
+G0 : Utility
+Axioms:
+verify_hash_spec :
+  forall (u : Utility) (d : Digest), verify_hash u d = true -> hash u = d
+verify_hash : Utility -> Digest -> bool
+utility_distance : Utility -> Utility -> R
+ClassicalDedekindReals.sig_forall_dec :
+  forall P : nat -> Prop,
+  (forall n : nat, {P n} + {~ P n}) ->
+  {n : nat | ~ P n} + {forall n : nat, P n}
+physical_irreversibility :
+  forall g : Utility,
+  OTP_memory g ->
+  fuse_intact g = true -> forall m : Modification, apply_mod m g = g
+hash_collision_resistance : forall u v : Utility, hash u = hash v -> u = v
+hash : Utility -> Digest
+gate_checks_all_dimensions :
+  forall (m : Modification) (g : Utility),
+  constitutional_gate m g = true -> ethical_bounds (apply_mod m g)
+fuse_intact : Utility -> bool
+ethical_bounds_imply_bounded_drift :
+  forall g : Utility,
+  ethical_bounds g -> utility_distance G0 g < epsilon_drift
+ethical_bounds : Utility -> Prop
+epsilon_pos : 0 < epsilon_drift
+epsilon_drift : R
+distance_self : forall u : Utility, utility_distance u u = 0
+constitutional_gate : Modification -> Utility -> bool
+apply_mod : Modification -> Utility -> Utility
+Utility : Type
+OTP_memory : Utility -> Prop
+Modification : Type
+G0 : Utility
+Digest : Type
+Axioms:
+valence_module_approves : Modification -> Utility -> Prop
+utility_distance : Utility -> Utility -> R
+ClassicalDedekindReals.sig_forall_dec :
+  forall P : nat -> Prop,
+  (forall n : nat, {P n} + {~ P n}) ->
+  {n : nat | ~ P n} + {forall n : nat, P n}
+module_consensus_preserves_values :
+  forall (m : Modification) (g : Utility),
+  module_approval m g -> utility_distance G0 (apply_mod m g) < epsilon_drift
+intergenerational_module_approves : Modification -> Utility -> Prop
+epsilon_drift : R
+empathy_module_approves : Modification -> Utility -> Prop
+embodiment_module_approves : Modification -> Utility -> Prop
+ecosystem_module_approves : Modification -> Utility -> Prop
+apply_mod : Modification -> Utility -> Utility
+Utility : Type
+Modification : Type
+G0 : Utility
+G : nat -> Utility
+== IMCA_Game
+Axioms:
+ClassicalDedekindReals.sig_forall_dec :
+  forall P : nat -> Prop,
+  (forall n : nat, {P n} + {~ P n}) ->
+  {n : nat | ~ P n} + {forall n : nat, P n}
+FunctionalExtensionality.functional_extensionality_dep :
+  forall (A : Type) (B : A -> Type) (f g : forall x : A, B x),
+  (forall x : A, f x = g x) -> f = g
+== IMCA_KillSwitch
+Axioms:
+ClassicalDedekindReals.sig_forall_dec :
+  forall P : nat -> Prop,
+  (forall n : nat, {P n} + {~ P n}) ->
+  {n : nat | ~ P n} + {forall n : nat, P n}
+FunctionalExtensionality.functional_extensionality_dep :
+  forall (A : Type) (B : A -> Type) (f g : forall x : A, B x),
+  (forall x : A, f x = g x) -> f = g
+Axioms:
+ClassicalDedekindReals.sig_forall_dec :
+  forall P : nat -> Prop,
+  (forall n : nat, {P n} + {~ P n}) ->
+  {n : nat | ~ P n} + {forall n : nat, P n}
+FunctionalExtensionality.functional_extensionality_dep :
+  forall (A : Type) (B : A -> Type) (f g : forall x : A, B x),
+  (forall x : A, f x = g x) -> f = g
+== IMCA_Consensus
+Closed under the global context
+== IMCA_Bounds
+Axioms:
+ClassicalDedekindReals.sig_forall_dec :
+  forall P : nat -> Prop,
+  (forall n : nat, {P n} + {~ P n}) ->
+  {n : nat | ~ P n} + {forall n : nat, P n}
+FunctionalExtensionality.functional_extensionality_dep :
+  forall (A : Type) (B : A -> Type) (f g : forall x : A, B x),
+  (forall x : A, f x = g x) -> f = g
+Axioms:
+ClassicalDedekindReals.sig_forall_dec :
+  forall P : nat -> Prop,
+  (forall n : nat, {P n} + {~ P n}) ->
+  {n : nat | ~ P n} + {forall n : nat, P n}
+FunctionalExtensionality.functional_extensionality_dep :
+  forall (A : Type) (B : A -> Type) (f g : forall x : A, B x),
+  (forall x : A, f x = g x) -> f = g

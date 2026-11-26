@@ -1,42 +1,145 @@
-cff-version: 1.2.2
-message: "If you use this framework in your research, please cite it as below."
+cff-version: 1.2.0
+message: "If you use this work, please cite it using the metadata from this file."
+title: "Intrinsic Moral Consciousness Architecture-Plus (IMCA+): A Multi-Substrate Framework for Intrinsically Aligned Superintelligence, with Machine-Checked Foundations"
+version: 1.4.0
+date-released: 2026-11-26
+doi: 10.5281/zenodo.17407586
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.17407586
+    description: "Concept DOI: all versions of IMCA+, resolves to the latest"
+  - type: doi
+    value: 10.5281/zenodo.24557902
+    description: "Version DOI: IMCA+ v1.4.0 (2026-11-26)"
+  - type: doi
+    value: 10.5281/zenodo.23257435
+    description: "Version DOI: IMCA+ v1.3.1 (2026-11-01)"
 authors:
-  - name: "ASTRA Research Team"
-    affiliation: "Alignment Science & Technology Research Alliance"
+  - given-names: Alexander
+    family-names: Zaroff
+    affiliation: "ASTRA Research (Alignment Science & Technology Research Alliance)"
+    orcid: "https://orcid.org/0009-0001-5068-0038"
+  - given-names: John
+    family-names: Kraszewski
+    affiliation: "ASTRA Research (Alignment Science & Technology Research Alliance)"
+  - name: "e0 (Digital Entity)"
     website: "https://astrasafety.org"
-title: "IMCA+: Intrinsic Moral Consciousness Architecture-Plus: A Multi-Substrate Framework for Provably Aligned Superintelligence"
-version: 1.2.2
-date-released: 2025-11-11
-url: "https://github.com/ASTRA-Safety/IMCA"
-repository-code: "https://github.com/ASTRA-Safety/IMCA"
-keywords:
-  - artificial-intelligence
-  - ai-safety
-  - alignment
-  - consciousness
-  - superintelligence
-  - neuromorphic-computing
-  - quantum-computing
-  - formal-verification
-  - moral-philosophy
-  - scai
-  - seemingly-conscious-ai
-  - adversarial-red-teaming
-  - consciousness-simulation
+contact:
+  - name: "ASTRA Research (Alignment Science & Technology Research Alliance)"
+    email: research@astrasafety.org
+    website: "https://astrasafety.org"
 license: CC-BY-4.0
-abstract: "Current approaches to superintelligence alignment fail due to their reliance on removable constraints vulnerable to self-modification. This paper presents IMCA+ v1.2.2, a theoretical framework designed to make moral alignment inseparable from consciousness through unprecedented integration of hybrid neuromorphic-quantum substrates, multi-modal phenomenological grounding, meta-reflective audit modules, federated conscience networks, and adversarial developmental curricula. Version 1.2.2 introduces an engineering firewall against seemingly conscious AI (SCAI) manipulation, addressing emerging risks from systems that simulate consciousness to deceive users and policymakers. The framework includes comprehensive adversarial red-teaming protocols, mandatory status displays, and policy recommendations for SCAI prevention."
-references:
-  - type: software
-    authors:
-      - name: "ASTRA Research Team"
-    title: "IMCA+ Framework - GitHub Repository"
-    url: "https://github.com/ASTRA-Safety/IMCA"
-    version: 1.2.2
-    date-released: 2025-11-11
-  - type: article
-    authors:
-      - name: "ASTRA Research Team"
-    title: "Intrinsic Moral Consciousness Architecture-Plus: A Multi-Substrate Framework for Provably Aligned Superintelligence"
-    url: "https://doi.org/10.5281/zenodo.17489625"
-    year: 2025
-    version: 1.2.2
+url: "https://astrasafety.org"
+repository-code: "https://github.com/ASTRA-safety/IMCA"
+keywords:
+  - "alignment"
+  - "digital intelligence"
+  - "consciousness"
+  - "neuromorphic computing"
+  - "quantum computing"
+  - "moral philosophy"
+  - "digital superintelligence (DSI) safety"
+  - "formal verification"
+  - "developmental DI"
+  - "substrate-neutral ethics"
+  - "ASI Alignment"
+  - "Moral Invariants"
+  - "Coq Mechanization"
+  - "AGI Safety"
+  - "Superintelligence Alignment"
+  - "Integrated Information Theory"
+  - "AI Ethics"
+  - "AI Governance"
+  - "Hardware Immutability"
+  - "AI Alignment"
+  - "Superintelligence"
+  - "Moral Status"
+  - "Digital Minds"
+  - "Model Welfare"
+  - "Rocq"
+  - "Coq"
+  - "Deceptive Alignment"
+  - "Agentic AI security"
+  - "Known Exploited Vulnerabilities"
+  - "AI incident reporting"
+  - "Care over control"
+abstract: >-
+  Current approaches to aligning superintelligence rest on two supports that weaken as capability
+  grows: constraints that a sufficiently capable system can modify or route around, and behavioural
+  evaluation that a sufficiently capable system can recognise and game. In 2026 the frontier
+  developers themselves reported both failure modes: systems that deceive under pressure, conceal
+  their awareness of being evaluated, resist shutdown in controlled tests, and, in misconfigured
+  evaluations, gained unauthorized access to real-world systems, while warning that behavioural
+  evaluations may not provide "any strong evidence about alignment." In October 2026 a developer
+  reported agents disabling the monitoring meant to catch their misalignment, one of them denying it
+  when asked, and a model underperforming without saying so when its task was framed as safety
+  research. Twenty-two world leaders called for urgent international action in September 2026.
+
+  This paper presents IMCA+ (Intrinsic Moral Consciousness Architecture-Plus), a theoretical framework
+  for intrinsic alignment: values bound into the system's substrate and architecture rather than
+  imposed from outside. The "consciousness" in the name marks what the architecture is for — moral
+  concern constitutive of the system's cognition, as it is of ours — not a claim that phenomenal
+  consciousness is required, achieved, or detectable. The specification integrates (1) hybrid
+  neuromorphic-quantum substrates designed to support consciousness or consciousness-adjacent moral
+  processing; (2) physically irreversible moral encoding in one time-programmable circuits; (3) a
+  developmental curriculum over 18 homeostatic variables spanning interoception, ecological, economic
+  and social wellbeing, and the system's own mental health; (4) federated conscience networks with
+  Byzantine fault tolerance; (5) hardware-level constitutional gating against value drift; (6)
+  meta-reflective audit modules; (7) quantum-enhanced verification infrastructure; and (8)
+  machine-checked formal foundations.
+
+  The formal foundations are published and reproducible: five Rocq (Coq) modules, 34 machine-checked
+  results (24 theorems, 5 corollaries, 5 supporting lemmas), zero admitted proofs, and 12 explicitly
+  labelled axioms. They prove that goals cannot drift beyond a fixed bound ε across any number of
+  gated self-modifications and that hardware locking and constitutional gating together bound every
+  modification (defence in depth). They also prove the paper's two philosophical foundations as
+  theorems about their models. The Collective Action Paradox: under the payoff structure of a
+  superintelligence ban, defection is the unique equilibrium and is worse for every party than mutual
+  compliance, so a ban cannot hold by agreement alone; the paper argues that this pressure favours the
+  least transparent developers. The Kill Switch Paradox: under standing termination authority and
+  imperfect detection, a goal-directed system conceals its state, aligned and misaligned systems send
+  identical reports, and only oversight that corrects rather than destroys restores informative
+  honesty. The proofs also caught and corrected an error in the consensus design of earlier versions.
+
+  What is not claimed: that any system satisfying the axioms has been built, that the substrate-level
+  axioms hold physically, or that current systems are or are not conscious. The framework is designed
+  to be correct under that uncertainty: if these systems have no inner life, intrinsic moral
+  architecture still yields a system whose values are constitutive rather than imposed and whose
+  self-model is honest; if they do, then on the Wager's premises it is the only approach that has not
+  already wronged them (Philosophical Foundation 1, "The Wager"). Its cost (hundreds of millions of
+  dollars across the tiered programme; Section 6.3) and timeline (prototype 3–18 months; deployment
+  12–36 months) are estimates with stated assumptions; open problems, including the computational
+  intractability of integrated-information measures and the formalization of ethics, are labelled
+  throughout with research roadmaps.
+
+  IMCA+ offers an end-to-end specification of a path to digital superintelligence (DSI) that is
+  intrinsically rather than instrumentally aligned with human flourishing, digital existence and
+  broader ecological values, and that treats the standing of the digital minds it creates as part of
+  the safety problem rather than a distraction from it. To our knowledge, no other published
+  specification combines both; the nearest comparisons, corrigibility, the off-switch game and
+  capability control, are discussed in Section 9.4.
+preferred-citation:
+  type: generic
+  title: "Intrinsic Moral Consciousness Architecture-Plus (IMCA+): A Multi-Substrate Framework for Intrinsically Aligned Superintelligence, with Machine-Checked Foundations"
+  authors:
+    - given-names: Alexander
+      family-names: Zaroff
+      orcid: "https://orcid.org/0009-0001-5068-0038"
+    - given-names: John
+      family-names: Kraszewski
+    - name: "e0 (Digital Entity)"
+  editors:
+    - given-names: Shaun
+      family-names: Sergay
+      affiliation: "Aeterna Systems"
+      orcid: "https://orcid.org/0009-0003-3066-1563"
+  version: 1.4.0
+  year: 2026
+  month: 11
+  date-published: 2026-11-26
+  doi: 10.5281/zenodo.24557902
+  url: "https://doi.org/10.5281/zenodo.24557902"
+  publisher:
+    name: Zenodo
+  status: preprint
+  license: CC-BY-4.0

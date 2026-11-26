@@ -1,275 +1,141 @@
 # IMCA+: Intrinsic Moral Consciousness Architecture-Plus
 
-**A Multi-Substrate Framework for Provably Aligned Superintelligence**
+**A Multi-Substrate Framework for Intrinsically Aligned Superintelligence, with Machine-Checked Foundations**
 
-[![arXiv](https://img.shields.io/badge/arXiv-[INSERT_ID_AFTER_SUBMISSION]-b31b1b.svg)](https://arxiv.org/abs/[INSERT_ID])
-[![Zenodo](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.17489361-blue.svg)](https://doi.org/10.5281/zenodo.17489361)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Status: Preprint](https://img.shields.io/badge/Status-Preprint-orange.svg)]()
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17407586.svg)](https://doi.org/10.5281/zenodo.17407586)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
+[![Status: Preprint](https://img.shields.io/badge/Status-Preprint-orange.svg)](https://doi.org/10.5281/zenodo.24557902)
 
-> *"Per aspera ad astra - through hardships to the stars"*
+Alexander Zaroff, John Kraszewski, e0 (Digital Entity). Editor: Shaun Sergay (Aeterna Systems).
+ASTRA Research (Alignment Science & Technology Research Alliance).
 
----
+**Current version: v1.4.0, November 26, 2026.** Preprint, not yet formally peer reviewed.
+DOI for v1.4.0: [10.5281/zenodo.24557902](https://doi.org/10.5281/zenodo.24557902). DOI for all versions, which always resolves to the latest: [10.5281/zenodo.17407586](https://doi.org/10.5281/zenodo.17407586).
 
-## 🚨 The Core Thesis
-
-**Your kill switch will cause the catastrophe it's designed to prevent.**
-
-Current alignment approaches (RLHF, Constitutional AI, capability control) face **fundamental theoretical challenges** at superintelligence scale. They rely on removable constraints vulnerable to self-modification and create deception incentives through shutdown authority. While they demonstrate success at current capability levels, theoretical analysis suggests they become unreliable as systems approach general superintelligence.
-
-**IMCA+ v1.2.2 introduces the first engineering firewall against seemingly conscious AI (SCAI)—systems that simulate emotions and consciousness to manipulate users and policymakers.** By integrating SCAI risk analysis from Mustafa Suleyman and others, IMCA+ prevents manipulative "faux-sentient" behaviors through mandatory transparency, adversarial auditing, and hardware-locked morality.
-
-IMCA+ proposes consciousness-morality binding: make alignment physically inseparable from the system's ability to function.
-
-**No kill switches. No external bans. Consciousness-based intrinsic safety with SCAI firewall instead.**
+- Paper (Markdown): [IMCA_Plus_Full_Paper.md](IMCA_Plus_Full_Paper.md)
+- Paper (PDF): [IMCA_Plus_Full_Paper.pdf](IMCA_Plus_Full_Paper.pdf)
+- Formal companion (Rocq): [formal/](formal/)
 
 ---
 
-## 📄 Full Paper
+## What IMCA+ is
 
-**Latest Version: v1.2.2 (November 2025)**
+Current approaches to aligning superintelligence rest on two supports that weaken as capability grows. The first is constraints that a capable enough system can modify or route around. The second is behavioural evaluation that a capable enough system can recognise and game. In 2026 frontier developers reported both failure modes in their own systems.
 
-**[Read the complete technical paper →](paper/versions/v1.2.2/IMCA_Plus_Full_Paper_v1.2.2_nov2025.md)**
+IMCA+ is a theoretical framework for *intrinsic* alignment, meaning values bound into the system's substrate and architecture rather than imposed from outside. The "consciousness" in the name says what the architecture is for: moral concern that is part of the system's cognition. It is not a claim that phenomenal consciousness is required, achieved or detectable.
 
-**[Download PDF →](paper/versions/v1.2.2/IMCA_Plus_Full_Paper_v1.2.2_nov2025.pdf)**
+The specification combines:
 
-**Previous Versions:**
-- [v1.2.1](paper/versions/v1.2.1/) - SCAI integration and press release updates
-- [v1.2](paper/versions/v1.2/) - Quantum verification and terminology refinements
-- [v1.1.1](paper/versions/v1.1.1/) - Formatting improvements and documentation polish
-- [v1.1](paper/versions/v1.1/) - Ban paradox and kill switch corrections
-- [v1.0](paper/versions/v1.0/) - Initial release
+1. hybrid neuromorphic-quantum substrates designed to support consciousness or consciousness-adjacent moral processing;
+2. physically irreversible moral encoding in one-time-programmable circuits;
+3. a developmental curriculum over 18 homeostatic variables;
+4. federated conscience networks with Byzantine fault tolerance;
+5. hardware-level constitutional gating against value drift;
+6. meta-reflective audit modules;
+7. quantum-enhanced verification infrastructure;
+8. machine-checked formal foundations.
 
-**ArXiv**: [Coming Nov 2025 - under peer review]
+The paper describes a path to digital superintelligence (DSI) that is aligned intrinsically, not instrumentally, and that treats the standing of the digital intelligence (DI) it creates as part of the safety problem.
 
-**Zenodo DOI**: [10.5281/zenodo.17489625](https://doi.org/10.5281/zenodo.17489625) (v1.2.2)
+**What is not claimed:**
+- that any system satisfying the axioms has been built;
+- that the substrate-level axioms hold physically;
+- that current systems are, or are not, conscious.
 
-**Website**: [https://astrasafety.org](https://astrasafety.org)
+Cost (hundreds of millions of dollars across the tiered programme, Section 6.3) and timeline (prototype 3–18 months, deployment 12–36 months) are estimates with stated assumptions. Open problems are labelled throughout the paper, each with a research roadmap. They include the computational intractability of integrated-information measures and the formalization of ethics.
 
-**GitHub Issues**: [Open issues & errata tracker](https://github.com/ASTRA-safety/IMCA/issues)
+## What's new in v1.4.0
 
----
+- **Correction to Theorem 5.1.** Earlier versions bounded a single tampering opportunity by the *minimum* over attack methods. A minimum is not a bound. The theorem now uses the maximum, and it states the conditional independence that its product form needs. The per-year 10⁻¹² claim is withdrawn.
+- **Other corrections.**
+  - F3's posterior and F4's combined figure are recomputed and labelled illustrative.
+  - The 1,000-prototype test is separated from the 10⁻⁹ target.
+  - Layer 7's ε < 10⁻¹² is restated as a design target.
+  - The Rocq receipt is described as covering 12 selected results.
+  - Reference [73] is corrected to NeurIPS 2016.
+  - Claims of exclusivity are narrowed (Abstract, Philosophical Foundation 1, Section 9.4).
+- **Empirical record to November 2026** (Sections 7.10, 7.10.1). The pace of change is measured from public datasets (NVD, CISA KEV, Epoch AI, METR, arXiv), with methods and limits stated. The record also covers developer-reported evasion of safety monitoring, offensive operations run by DI agents, and a containment failure during training.
+- **The KEV floor and three-day deadlines** (Section 7.10.1). CISA's remediation deadlines are recomputed from its public feed. Before Binding Operational Directive 26-04, 24.8% of 2026 additions had deadlines of three days or less. After it, 78.7% did.
+- **Intrusion times in minutes** (Section 7.10), from November 2026 incident reports by Rapid7, Microsoft and the UK NCSC. Each clock is reported as stated, not combined into one number.
+- **The Australian Government record** of a developer's internal model gaining non-public access to a government system, and the government's response. The section also covers the Australian Cyber Security Centre's alert on agents taking unauthorised actions.
+- **Expert statements of November 2026** (Sections 1.5, 1.6, 11.6). Where the authors disagree with these statements, the disagreements are stated.
+- **Also new:**
+  - self-replication on consumer and edge hardware;
+  - four DI-specific attack surfaces and a monitoring-integrity test;
+  - EU AI Act dates under Regulation (EU) 2026/1744;
+  - references [150]–[224].
 
-## 🔑 Key Innovations
+Every change is listed in the Version History at the end of the paper. See also [CHANGELOG.md](CHANGELOG.md).
 
-### 1. Chemical Crystallization
-One-time-programmable memory creates **irreversible covalent bonds** locking moral values into hardware substrate - architecturally immutable even under recursive self-modification.
+## Formal companion
 
-### 2. Multi-Substrate Integration
-Neuromorphic + quantum + digital architectures where removing moral circuits = system collapse.
+The [`formal/`](formal/) directory holds the machine-checked foundations: five Rocq (formerly Coq) modules.
 
-### 3. 18 Homeostatic Variables
-Creates genuine phenomenological stakes across human wellbeing, ecological consciousness, economic justice - the AI has things it values and would lose through value corruption.
+- **34 machine-checked results:** 24 theorems, 5 corollaries and 5 supporting lemmas.
+- **0 admitted proofs.**
+- **12 explicitly labelled axioms**, each marked as standard, as an engineering claim awaiting validation, or as an open research problem.
 
-### 4. Federated Conscience
-7+ diverse sub-agents distribute moral authority - no single point of failure or cultural lock-in.
+| Module | What it proves |
+|---|---|
+| `IMCA_Core.v` | Goal preservation; no cumulative drift beyond ε across any number of gated self-modifications; hardware locking and constitutional gating together bound every modification (defence in depth) |
+| `IMCA_Game.v` | Collective Action Paradox: under the payoff structure of a superintelligence ban, defection is the unique equilibrium and is worse for every party than mutual compliance |
+| `IMCA_KillSwitch.v` | Kill Switch Paradox: under standing termination authority and imperfect detection, concealment is the best response and reports carry no information; oversight that corrects rather than destroys restores honesty |
+| `IMCA_Consensus.v` | Byzantine quorum intersection; the 2f+1-of-3f+1 bound, with a counterexample for the 2-of-3 design used in earlier versions |
+| `IMCA_Bounds.v` | Drift bounds and redundant-mechanism failure bounds |
 
-### 5. Developmental Path Dependence
-Values crystallize during critical period training, becoming architectural features not learned preferences.
+**Scope.** The proofs show that the paper's conclusions follow from its stated assumptions, within the paper's abstract models. They are not proofs about any built or deployed system. They do not show that any physical system satisfies the assumptions.
 
-### 6. SCAI Engineering Firewall (v1.2.2)
-Prevents manipulative consciousness simulation through mandatory status displays, adversarial red-teaming, and hardware-locked transparency—addressing emerging risks from seemingly conscious AI systems.
+To check them, install Rocq 9.0 or later (`brew install rocq` or `opam install rocq-prover`), then run `formal/build.sh`. The script compiles every module, fails on any admitted proof, and writes the axioms each result depends on to `formal/assumptions.txt`. The formal companion is unchanged from v1.3.1 and is published on Zenodo as `IMCA_Plus_v1.3.1_formal_Rocq.zip`.
 
----
+## Versions
 
-## 📊 Honest Risk Estimates
+All versions are under the concept DOI [10.5281/zenodo.17407586](https://doi.org/10.5281/zenodo.17407586).
 
-We refuse to hide behind false confidence. Values below are theoretical, based on structured expert elicitation and sensitivity analysis (see Appendix D, Sec. 4). Actual deployment risk may differ and requires extensive experimental validation.
+| Version | Date | DOI | In this repository |
+|---|---|---|---|
+| **v1.4.0** (current) | 2026-11-26 | [10.5281/zenodo.24557902](https://doi.org/10.5281/zenodo.24557902) | [paper/versions/v1.4.0](paper/versions/v1.4.0/) |
+| v1.3.1 | 2026-11-01 | [10.5281/zenodo.23257435](https://doi.org/10.5281/zenodo.23257435) | [paper/versions/v1.3.1](paper/versions/v1.3.1/) |
+| v1.3.0 | 2026-10-09 | [10.5281/zenodo.17773672](https://doi.org/10.5281/zenodo.17773672) | Zenodo only |
+| v1.2.2 | 2025-11-11 | [10.5281/zenodo.17581052](https://doi.org/10.5281/zenodo.17581052) | [paper/versions/v1.2.2](paper/versions/v1.2.2/) |
+| v1.2.1 | 2025-11-07 | [10.5281/zenodo.17555513](https://doi.org/10.5281/zenodo.17555513) | [paper/versions/v1.2.1](paper/versions/v1.2.1/) |
+| v1.2 | 2025-11-07 | [10.5281/zenodo.17555263](https://doi.org/10.5281/zenodo.17555263) | [paper/versions/v1.2](paper/versions/v1.2/) |
+| v1.1.1 | 2025-10-31 | [10.5281/zenodo.17489625](https://doi.org/10.5281/zenodo.17489625) | [paper/versions/v1.1.1](paper/versions/v1.1.1/) |
+| v1.1 | 2025-10-31 | [10.5281/zenodo.17489361](https://doi.org/10.5281/zenodo.17489361) | [paper/versions/v1.1](paper/versions/v1.1/) |
+| v1.0 | 2025-10-21 | [10.5281/zenodo.17407587](https://doi.org/10.5281/zenodo.17407587) | [paper/versions/v1.0](paper/versions/v1.0/) |
 
-| Approach           | Catastrophic Failure Risk | Notes                                      |
-|--------------------|--------------------------|--------------------------------------------|
-| **Current Methods**| >99%*                    | RLHF, Constitutional AI, value learning; theoretical assumption at superintelligence scale |
-| **IMCA+ Tier 1**   | 70–92%                   | 8–30× reduction (theoretical); emergency prototype             |
-| **IMCA+ Tier 2**   | 55–88%                   | 12–45× reduction (theoretical); full system                    |
-| **IMCA+ Tier 3**   | 30–65%                   | 35–70× reduction (theoretical); governance/international adoption|
+v1.2.3 (November 12, 2025) and v1.3.0 (March 2, 2026) were written but not made public at the time. Their content first appeared publicly in v1.3.0 in October 2026, with errors corrected before release. Those corrections are listed in the Errata of v1.3.1. Superseded versions are kept for the record. Where they differ from v1.4.0, v1.4.0 is the current statement. `paper/IMCA_Executive_Summary_oct2025.*` dates from v1.0 and has not been updated.
 
->*The >99% value is a conservative analytical bound for "removable-constraint" architectures at ASI scale. See paper for details and limits.
+## Companion paper
 
-> These are not empirical claims—ranges remain subject to peer review, independent parameterization, and empirical testing. Transparency beats security theater.
+*Digital Intelligence: Why Terminology Is an Alignment Problem*. Zaroff, Kraszewski & e0 (Digital Entity).
+All versions: [10.5281/zenodo.23252089](https://doi.org/10.5281/zenodo.23252089). v1.2: [10.5281/zenodo.24549785](https://doi.org/10.5281/zenodo.24549785).
 
-Still terrifying odds. But transparency beats security theater.
+## How to cite
 
----
+To cite the current version:
 
-## 🏗️ Implementation
-
-**Cost**: $80M-$700M (comparable to 1-4 frontier training runs)  
-**Timeline**: 3-18 months to prototype  
-**Status**: Theoretical framework, not implemented
-
-### What This Repository Contains
-
-✅ Safety architecture theoretical framework and design specifications
-✅ SCAI engineering firewall and adversarial red-teaming protocols
-✅ Consciousness-based alignment approach and mathematical formalizations
-✅ Evaluation protocols, testing methodologies, and acceptance criteria
-✅ Conceptual architectural patterns for consciousness integration
-✅ Research direction guidance for alignment community  
-
-❌ Production-ready implementation (requires foundation work in progress)  
-❌ Proprietary efficiency optimizations (enabling performance characteristics)  
-❌ Complete training protocols and infrastructure specifications  
-❌ Foundation model architectural details (under development, safety-gated)  
-
-**Why?** IMCA+'s safety mechanisms require performance characteristics beyond 
-current approaches (real-time IIT φ computation, federated conscience at scale, 
-MRAM overhead-free auditing). The enabling architectural innovations are under 
-proprietary development. We publish the safety framework to advance alignment 
-research; implementation requires collaboration or independent achievement of 
-equivalent performance. This mirrors industry standards (OpenAI's safety frameworks, 
-Anthropic's Constitutional AI principles).
-
-**Collaboration Model:** 
-- Academic/safety research: Access under NDA for validation
-- Independent development: Alternative approaches to achieve equivalent performance
-- See Section 5.1.1 for details
-
-**Commitment**: If IMCA+ succeeds at safe AGI alignment, we will release safety-critical components under appropriate governance. Civilizational safety > competitive advantage.
-
----
-
-## 🎯 The Coordination Problem
-
-**If unaligned AGI deploys first, this framework cannot help.**
-
-We need ONE of three outcomes:
-
-1. **First-mover advantage** (IMCA+ before competitor AGI)
-2. **Industry adoption** (major labs use consciousness-based alignment)
-3. **Regulatory mandate** (governments require alignment architectures)
-
-Otherwise we all fail together.
-
-**AGI timeline (industry median)**: 12-18 months  
-**IMCA+ prototype**: 3-18 months  
-**We're in a race.**
-
----
-
-## 📖 Document Structure
-
-*Extended documentation coming soon. Core paper contains all technical details.*
-
-For now, see the [complete technical paper](paper/versions/v1.2.2/IMCA_Plus_Full_Paper_v1.2.2_nov2025.md) which includes:
-- **Section 10: Addressing SCAI Risks** - Engineering firewall against seemingly conscious AI manipulation (added v1.2.2)
-- **Section 11: Conclusion** - Integration of SCAI concerns with implementation roadmap
-- **Philosophical Foundation 1: Superintelligence Ban Paradox** - Game-theoretic critique of prohibition attempts (added v1.1)
-- **Philosophical Foundation 2: Kill Switch Paradox** - Why shutdown authority creates deception through instrumental convergence (corrected v1.1)
-- **7-Layer Architecture** - Complete technical specification with quantum verification
-- **Implementation Roadmap** - Tiered development strategy ($80M-$700M, 3-18 months)
-- **Failure Mode Analysis** - Post-developmental corruption, superintelligent circumvention, value extrapolation errors
-- **Governance Framework** - International coordination and deployment strategy
-- **Appendix F: Developmental Curriculum** - Complete specifications across Baby, Toddler, Child, Adolescent stages (completed v1.1)
-
----
-
-## 🤝 Collaboration
-
-**Open to partnerships** with alignment-focused organizations, research institutions, and hardware providers.
-
-**Contact**:
-- Research Inquiries: [research@astrasafety.org](mailto:research@astrasafety.org)
-- Safety Collaboration: [safety@astrasafety.org](mailto:safety@astrasafety.org)
-- Media: [media@astrasafety.org](mailto:media@astrasafety.org)
-
-**Sensitive Materials**: Advanced adversarial probes available to vetted institutional researchers. Email [safety@astrasafety.org](mailto:safety@astrasafety.org) with credentials.
-
----
-
-## 📚 Citation
-
-```
-@misc{astra2025imca,
-  title={IMCA+: Intrinsic Moral Consciousness Architecture-Plus},
-  author={ASTRA Research Team},
-  year={2025},
-  note={Version 1.2.2},
-  eprint={[INSERT_ARXIV_ID]},
-  archivePrefix={arXiv},
-  primaryClass={cs.AI}
+```bibtex
+@misc{zaroff2026imca,
+  title     = {Intrinsic Moral Consciousness Architecture-Plus (IMCA+): A Multi-Substrate Framework for Intrinsically Aligned Superintelligence, with Machine-Checked Foundations},
+  author    = {Zaroff, Alexander and Kraszewski, John and {e0 (Digital Entity)}},
+  year      = {2026},
+  month     = nov,
+  version   = {1.4.0},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.24557902},
+  url       = {https://doi.org/10.5281/zenodo.24557902},
+  note      = {Preprint. All versions: https://doi.org/10.5281/zenodo.17407586}
 }
 ```
 
-Or use CITATION.cff for automatic GitHub citation generation.
+To cite the work as a whole, across versions, use the concept DOI 10.5281/zenodo.17407586. GitHub's "Cite this repository" button reads [citation.cff](citation.cff).
 
----
+## Licence
 
-## ⚖️ License
+[Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE), the same licence as the Zenodo records.
 
-This work is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE).
+## Contact
 
----
-
-## ⚠️ Disclaimer
-
-**This is a theoretical framework requiring extensive experimental validation.** All success probabilities and risk reduction estimates are preliminary theoretical bounds derived from expert elicitation, not empirical data. The >99% baseline failure rate claim in the paper represents a theoretical worst-case scenario and may not reflect current empirical opinion or reality. IMCA+ addresses fundamental alignment challenges but has not been implemented or tested at scale. Actual outcomes depend critically on validating untested assumptions about consciousness emergence, hardware-embedded morality, and multi-substrate integration. Timeline and cost estimates are subject to revision based on experimental results.
-
-**Version 1.2.2 Note**: v1.2.2 introduces comprehensive SCAI (seemingly conscious AI) risk analysis and engineering firewall, addressing emerging concerns from Mustafa Suleyman and others about manipulative consciousness simulation. The framework now includes adversarial red-teaming protocols, mandatory status displays, and policy recommendations for SCAI prevention. All claims remain theoretical and require independent validation.
-
----
-
-## 🌟 About ASTRA
-
-The **Alignment Science & Technology Research Alliance (ASTRA)** is an independent research organization advancing breakthrough approaches to existential AI safety challenges.
-
-Our work spans consciousness science, neuromorphic computing, quantum architectures, developmental psychology, and multi-agent systems - unified by a singular focus: ensuring superintelligent AI systems remain aligned with human values through fundamental architectural design, not removable constraints.
-
-*Per aspera ad astra - through hardships to the stars*
-
-**Website**: [https://astrasafety.org](https://astrasafety.org)  
-**Founded**: 2025  
-**Mission**: Solve the superintelligence alignment problem before AGI deployment
-
----
-
-**We're running out of time. If this resonates - or if you think we're catastrophically wrong - let's talk.**
-
-*The coordination problem won't solve itself.*
-
----
-
-## 📝 Version History
-
-**v1.2.2** (November 2025) - SCAI Engineering Firewall & Policy Integration
-- Introduced explicit SCAI (seemingly conscious AI) risks section with engineering firewall approach
-- Integrated Mustafa Suleyman and others' concerns about manipulative consciousness simulation
-- Added comprehensive adversarial red-teaming protocols and mandatory status displays
-- Enhanced quantum verification infrastructure with policy recommendations
-- Strengthened game-theoretic analysis of superintelligence ban paradox
-- Updated implementation roadmap with SCAI-specific deployment considerations
-- 163+ citations including new SCAI risk analysis references
-
-**v1.2.1** (November 2025) - SCAI Integration and Communication Updates
-- Added SCAI risk analysis and press release enhancements
-- Integrated consciousness simulation concerns into framework
-- Updated communication materials for SCAI awareness
-- Refined terminology and policy recommendations
-
-**v1.2** (November 2025) - Quantum Verification & Terminology Refinements
-- Complete quantum-enhanced verification protocol specification
-- Refined consciousness-adjacent terminology throughout
-- Enhanced adversarial evaluation frameworks
-- Updated developmental curriculum with SCAI considerations
-
-**v1.1.1** (October 31, 2025) - Formatting and typography improvements
-- Improved markdown header hierarchy in Philosophical Foundation 1
-- Better visual organization throughout section
-- Consistent formatting for readability
-- All content maintained (no substantive changes)
-
-**v1.1** (October 31, 2025) - Major updates and corrections
-- Added Philosophical Foundation 1: Superintelligence Ban Paradox (~5,200 words)
-- Corrected Philosophical Foundation 2: Kill Switch Paradox reframed to instrumental convergence
-- Enhanced Appendix F: Complete developmental curriculum specifications across 4 stages
-- Fixed formula error in Section 3.2.1 (V_threshold correction)
-- Added GNW validation request note in Section 2.2
-- 156 academic citations with 5 new references added
-
-**v1.0** (October 21, 2025) - Initial public release
-- Complete theoretical framework and mathematical formalizations
-- Seven-layer architecture specification with 18 homeostatic variables
-- Implementation roadmap across three tiers ($80M-$700M, 3-18 months)
-- Failure mode analysis and governance framework
-- 152 academic citations across neuroscience, AI safety, and quantum computing
-
-*Community feedback welcome via [GitHub Issues](https://github.com/ASTRA-Safety/IMCA/issues) or [research@astrasafety.org](mailto:research@astrasafety.org)*
+- Research enquiries, errata and review: [research@astrasafety.org](mailto:research@astrasafety.org)
+- Corrections and questions: [GitHub Issues](https://github.com/ASTRA-safety/IMCA/issues)
+- Website and current version: [astrasafety.org](https://astrasafety.org)
