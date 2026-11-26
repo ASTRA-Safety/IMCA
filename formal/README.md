@@ -1,7 +1,7 @@
-# IMCA+ Formal Companion (v1.3.1)
+# IMCA+ Formal Companion (v1.4.0; proofs unchanged since v1.3.1)
 
 Machine-checked proofs accompanying *IMCA+: Intrinsic Moral Consciousness
-Architecture-Plus* v1.3.1 (Zaroff, Kraszewski & e0 (Digital Entity), 2026). CC BY 4.0.
+Architecture-Plus* v1.4.0 (Zaroff, Kraszewski & e0 (Digital Entity), 2026). CC BY 4.0.
 
 **Prover:** Rocq 9.3 (formerly Coq) · **Modules:** 5 · **Machine-checked results:** 34 · **Admitted:** 0
 
